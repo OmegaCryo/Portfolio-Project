@@ -9,7 +9,14 @@ h1 {
   text-align: center;
 }
 header {
+  position: relative;
   text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+.header-title {
+  font-size: 5rem;
+  letter-spacing: 0.02em;
+  line-height: 0.9;
 }
 nav {
   display: flex;
@@ -21,31 +28,24 @@ a {
   color: white;
   text-decoration: none;
 }
-#container {
-  display: grid;
-}
-.main,
-.menu {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 3rem 2rem;
-  border: 2px solid #fff;
-}
-.menu {
-  border: none;
-}
 img {
   width: 400px;
 }
-.greeting {
-  font-size: 5rem;
-  letter-spacing: 0.02em;
-}
-.current-card {
-  margin: 5px;
-}
-#enter {
+.enter {
   text-align: center;
+}
+.main-container {
+  max-width: 900px;
+  display: grid;
+  gap: 16px;
+  margin: 0 auto;
+  padding: 16px;
+  border: 2px solid #fff;
+}
+section {
+  border: 1px solid #fff;
+  padding: 16px;
+  margin-bottom: 16px;
 }
 footer {
   font-size: 10px;
