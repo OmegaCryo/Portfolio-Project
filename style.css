@@ -21,20 +21,19 @@ a {
   color: white;
   text-decoration: none;
 }
-.main {
+#container {
+  display: grid;
+}
+.main,
+.menu {
   max-width: 800px;
   margin: 0 auto;
   padding: 3rem 2rem;
   border: 2px solid #fff;
 }
 .menu {
-  border: 2px solid #fff;
-  width: 250px;
+  border: none;
 }
-.menu a {
-  display: block;
-}
-
 img {
   width: 400px;
 }
