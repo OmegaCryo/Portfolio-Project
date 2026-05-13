@@ -5,18 +5,37 @@ body {
   background-color: #000;
   color: #fff;
 }
-h1 {
-  text-align: center;
-}
 header {
   position: relative;
-  text-align: center;
   padding: 3rem 1rem 2rem;
 }
 .header-title {
   font-size: 5rem;
   letter-spacing: 0.02em;
   line-height: 0.9;
+}
+header,
+.enter,
+.social-container {
+  text-align: center;
+}
+.img-container {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+}
+.social-container {
+  padding: 10px;
 }
 nav {
   display: flex;
@@ -25,14 +44,8 @@ nav {
   font-size: 12px;
 }
 a {
-  color: white;
+  color: #fff;
   text-decoration: none;
-}
-img {
-  width: 400px;
-}
-.enter {
-  text-align: center;
 }
 .main-container {
   max-width: 900px;
