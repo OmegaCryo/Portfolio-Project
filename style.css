@@ -56,8 +56,12 @@ a {
   }
 }
 .enter a {
+  font-size: 40px;
   display: inline-block;
   animation: hover 1.5s infinite;
+}
+.social {
+  margin: 20px;
 }
 .social a:hover {
   display: inline-block;
