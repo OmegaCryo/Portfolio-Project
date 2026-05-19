@@ -74,14 +74,25 @@ a {
 .main-container {
   max-width: 900px;
   display: grid;
-  grid: auto/ auto auto;
+  grid-template-columns: 120px 1fr 120px;
   gap: 16px;
   margin: 0 auto;
   padding: 16px;
   border: 2px solid #fff;
 }
-.welcome-section {
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+.mid-section {
   border: 1px solid #fff;
+  margin: 0 20px 0 20px;
   padding: 16px;
   margin-bottom: 16px;
   font-size: 0.8rem;
@@ -100,7 +111,11 @@ footer {
   .main-container {
     grid-template-columns: 1fr;
   }
-  .social-section {
+  .mid-section {
+    margin: 0 auto;
+  }
+  .social-section,
+  n {
     display: flex;
     justify-content: center;
     align-items: center;
