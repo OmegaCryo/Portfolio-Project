@@ -74,17 +74,38 @@ a {
 .main-container {
   max-width: 900px;
   display: grid;
+  grid: auto/ auto auto;
   gap: 16px;
   margin: 0 auto;
   padding: 16px;
   border: 2px solid #fff;
 }
-section {
+.welcome-section {
   border: 1px solid #fff;
   padding: 16px;
   margin-bottom: 16px;
+  font-size: 0.8rem;
+}
+.social-section a {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 5px;
 }
 footer {
   font-size: 10px;
   text-align: center;
+}
+@media (max-width: 600px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+  .social-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-section a {
+    display: inline-block;
+  }
 }
