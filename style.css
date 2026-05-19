@@ -60,12 +60,16 @@ a {
   display: inline-block;
   animation: hover 1.5s infinite;
 }
+.enter a:hover {
+  text-shadow: 0 3px 5px #fff;
+}
 .social {
   margin: 20px;
 }
 .social a:hover {
   display: inline-block;
   animation: hover 1.5s infinite;
+  text-shadow: 0 3px 5px #fff;
 }
 .main-container {
   max-width: 900px;
