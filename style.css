@@ -43,7 +43,7 @@ header,
 nav {
   display: flex;
   justify-content: center;
-  margin: 15px;
+  margin-top: 15px;
   gap: 0.5rem;
   font-size: 12px;
 }
@@ -75,6 +75,7 @@ a {
   animation: hover 1.5s infinite;
   text-shadow: 0 3px 5px #fff;
 }
+/* home.html*/
 .main-container {
   max-width: 900px;
   display: grid;
@@ -93,10 +94,15 @@ a {
 }
 .mid-section {
   border: 1px solid #fff;
-  margin: 0 20px 0 20px;
+  margin: 15px 20px 15px 20px;
   padding: 16px;
-  margin-bottom: 16px;
   font-size: 0.8rem;
+}
+.mid-section p {
+  padding: 10px;
+}
+.social-section {
+  margin-top: 15px;
 }
 .social-section a {
   display: block;
@@ -108,6 +114,7 @@ footer {
   font-size: 10px;
   text-align: center;
 }
+/*media query */
 @media (max-width: 600px) {
   .main-container {
     grid-template-columns: 1fr;
