@@ -114,6 +114,15 @@ footer {
   font-size: 0.625rem;
   text-align: center;
 }
+/*resource*/
+.resource-container {
+  margin: 15px;
+}
+.resource-item {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}
 /*media query */
 @media (max-width: 600px) {
   .main-container {
