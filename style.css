@@ -79,20 +79,39 @@ a {
 .container {
   margin: auto;
   width: 800px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+  padding: 16px;
 }
 .left-section {
   display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12px;
 }
-.social-section a {
+.left-box {
+  border: 1px solid #fff;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.8rem;
+}
+.left-box a {
   display: block;
   font-size: 12px;
   padding: 10px;
 }
-.mid-section {
-  max-width: 700px;
-  font-size: 12px;
-  margin-left: 20px;
-  padding: 5px;
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.content-box {
+  border: 1px solid #fff;
+  padding: 16px;
+  font-size: 0.8rem;
 }
 .avatar {
   width: 100px;
@@ -101,7 +120,6 @@ a {
   margin: 0.625rem;
   border: 2px solid gray;
 }
-
 footer {
   font-size: 0.625rem;
   text-align: center;
