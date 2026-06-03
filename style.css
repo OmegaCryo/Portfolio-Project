@@ -112,6 +112,9 @@ a {
   padding: 10px;
   text-align: center;
 }
+.nav-link:hover {
+  text-decoration: underline;
+}
 .right-section {
   display: flex;
   flex-direction: column;
