@@ -148,6 +148,14 @@ footer {
   font-size: 12px;
   margin-top: 5px;
 }
+/*playlist*/
+.playlist {
+  margin: 10px;
+}
+.playlist a {
+  display: block;
+  font-size: 14px;
+}
 /*media query */
 @media (max-width: 600px) {
 }
