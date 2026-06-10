@@ -84,7 +84,7 @@ a {
 }
 /* home.html*/
 .home-header {
-  animation: pulse 10s ease infinite;
+  animation: pulse 5s ease infinite;
 }
 @keyframes pulse {
   0%,
@@ -94,17 +94,17 @@ a {
       0 0 10px #fff,
       0 0 20px #000,
       0 0 28px #000,
-      0 0 0.4vw #000,
-      0.5vw 0.5vw 0.1vw #000;
+      0 0 7px #000,
+      9px 9px 2px #000;
   }
   50% {
     text-shadow:
-      0 0 0.5vw #393941,
-      0 0 1.5vw #393941,
-      0 0 5vw #393941,
-      0 0 5vw #393941,
-      0 0 0.2vw #393941,
-      0.5vw 0.5vw 0.1vw #40340a;
+      0 0 9px #000,
+      0 0 20px #393941,
+      0 0 28px #393941,
+      0 0 28px #393941,
+      0 0 4px #393941,
+      9px 9px 2px #000;
   }
 }
 .nav-line {
