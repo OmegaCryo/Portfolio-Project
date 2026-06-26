@@ -148,6 +148,26 @@ a {
   flex-direction: column;
   gap: 16px;
 }
+.content-box .none {
+  border-style: none;
+}
+.card {
+  margin: 20px;
+}
+.card-img {
+  height: 100px;
+  width: 100px;
+  background-image: url(images/Bihan-ezgif.com-speed.gif);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  transition: transform 500ms ease-in;
+  border: 1px solid grey;
+}
+.card-img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
 .content-box {
   border: 1px solid #fff;
   padding: 16px;
