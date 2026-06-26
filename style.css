@@ -163,6 +163,9 @@ a {
 .intro {
   margin: 10px;
 }
+.button-border {
+  border: 1px solid grey;
+}
 footer {
   font-size: 0.625rem;
   text-align: center;
