@@ -6,6 +6,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   background-color: #000;
+  background-image: url(images/stars.gif);
   color: #fff;
 }
 header {
@@ -113,18 +114,21 @@ a {
   color: #fff;
 }
 .container {
+  background: #000;
   margin: auto;
   width: 800px;
   display: grid;
   grid-template-columns: 200px 1fr;
   gap: 16px;
   padding: 16px;
+  border: 2px solid #393941;
 }
 .left-section {
   display: flex;
   flex-direction: column;
   gap: 8px;
   font-size: 12px;
+  border-right: 2px solid #393941;
 }
 .left-box {
   padding: 12px;
@@ -146,10 +150,9 @@ a {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  border-left: 2px solid #393941;
 }
-.content-box .none {
-  border-style: none;
+.content-box {
+  border-bottom: 2px solid #393941;
 }
 .card {
   margin: 20px;
