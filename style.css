@@ -230,6 +230,10 @@ footer {
 .resource-section {
   margin: 15px;
 }
+.resource-section p {
+  font-size: 12px;
+  margin: 10px 0;
+}
 .resource-item {
   display: block;
   font-size: 12px;
