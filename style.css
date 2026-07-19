@@ -52,15 +52,17 @@ a {
   padding: 10px;
   width: 600px;
   border: 2px solid #393941;
+  text-align: center;
 }
 .hero-image {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 40px;
 }
 .hero-image img {
   width: 400px;
   height: auto;
+  border-radius: 50%;
 }
 .notice-content {
   margin: 10px;
