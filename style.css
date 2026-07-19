@@ -23,27 +23,10 @@ header {
 }
 header,
 .enter,
-.social-container {
+.index-container p {
   text-align: center;
 }
-.img-container {
-  width: 400px;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-.img-container img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  display: block;
-}
-.social-container {
-  padding: 0.625rem;
-}
+/* index */
 nav {
   display: flex;
   justify-content: center;
@@ -63,6 +46,13 @@ a {
     transfrom: translateY(-6px);
   }
 }
+.index-container {
+  background: #000;
+  margin: auto;
+  padding: 10px;
+  width: 600px;
+  border: 2px solid #393941;
+}
 .enter a {
   font-size: 2.5rem;
   display: inline-block;
@@ -71,19 +61,7 @@ a {
 .enter a:hover {
   text-shadow: 0 3px 5px #fff;
 }
-.social {
-  margin: 1.25rem;
-}
-.social a:hover {
-  display: inline-block;
-  animation: hover 1.5s infinite;
-  text-shadow: 0 3px 5px #fff;
-}
-.link-style {
-  color: #a3a3ae;
-  text-decoration: underline;
-}
-/* home.html*/
+/* home */
 .scroll-header {
   width: 100%;
   background: #000;
