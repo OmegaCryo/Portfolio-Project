@@ -87,6 +87,7 @@ a {
 }
 .scroll-header-inner {
   display: inline-block;
+  font-size: 12px;
   white-space: nowrap;
   padding-left: 100%;
   animation: scroll-left 20s linear infinite;
