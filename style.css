@@ -139,18 +139,22 @@ footer {
   margin: auto;
   width: 800px;
   display: grid;
-  grid-template-columns: 200px 1fr;
   padding: 16px;
   border: 2px solid #393941;
+  color: #a3a3ae;
 }
 .container p {
   font-size: 12px;
   padding: 5px;
-  color: #a3a3ae;
 }
 .center-content {
   margin-bottom: 30px;
   border: 1px solid #393941;
+}
+th,
+td {
+  font-size: 12px;
+  padding: 10px;
 }
 .nav-link {
   font-size: 12px;
