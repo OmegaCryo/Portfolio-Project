@@ -92,7 +92,7 @@ footer {
 }
 .scroll-header-inner {
   display: inline-block;
-  font-size: 12px;
+  font-size: 10px;
   white-space: nowrap;
   padding-left: 100%;
   animation: scroll-left 20s linear infinite;
@@ -134,6 +134,13 @@ footer {
   margin: 15px auto;
   color: #fff;
 }
+.nav-container {
+  background: #000;
+  margin: 20px auto 0;
+  width: 800px;
+  padding: 15px;
+  border: 2px solid #393941;
+}
 .container {
   background: #000;
   margin: auto;
@@ -146,6 +153,15 @@ footer {
 .container p {
   font-size: 12px;
   padding: 5px;
+}
+.nav-section {
+  padding: 12px;
+  font-size: 0.8rem;
+  border: 1px solid #393941;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 .center-content {
   margin-bottom: 30px;
