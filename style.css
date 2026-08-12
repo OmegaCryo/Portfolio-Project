@@ -7,7 +7,6 @@
 body {
   font-family: "Roboto Mono", monospace;
   background-color: #000;
-  background-image: url(images/stars.gif);
   color: #fff;
 }
 header {
@@ -47,38 +46,25 @@ footer {
   text-align: center;
 }
 /* index */
-.index-container {
-  background: #000;
-  margin: auto;
-  padding: 10px;
-  width: 600px;
-  border: 2px solid #393941;
-  text-align: center;
+main {
+  border: 2px solid white;
 }
-.hero-image {
+.card-container {
   display: flex;
   justify-content: center;
-  margin: 40px;
-}
-.hero-image img {
-  width: 400px;
-  height: auto;
-  border-radius: 50%;
-}
-.notice-content {
   margin: 10px;
+}
+.card {
+  border: 2px solid white;
+  height: 400px;
+  width: 90px;
+  margin: 5px;
+}
+.info-container {
   text-align: center;
 }
-.notice-content span {
+.update {
   font-size: 12px;
-}
-.enter a {
-  font-size: 2.5rem;
-  display: inline-block;
-  animation: hover 1.5s infinite;
-}
-.enter a:hover {
-  text-shadow: 0 3px 5px #fff;
 }
 /* HOME.HTML */
 .scroll-header {
@@ -218,9 +204,6 @@ td {
 @media (max-width: 480px) {
   .header-title {
     font-size: 60px;
-  }
-  .hero-image img {
-    width: 350px;
   }
   .index-container {
     width: 350px;
