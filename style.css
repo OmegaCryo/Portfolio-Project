@@ -64,6 +64,9 @@ footer {
   background-repeat: no-repeat;
   filter: grayscale(100%);
 }
+.card:hover {
+  filter: grayscale(0%);
+}
 .card-1 {
   background-image: url(images/Xavier.png);
 }
@@ -79,9 +82,19 @@ footer {
   font-weight: 700;
   margin-top: 40px;
 }
+.social {
+  margin: 20px;
+  text-align: center;
+}
 .enter:hover a {
   background: white;
   color: black;
+  padding: 5px;
+}
+.social-link:hover {
+  background: white;
+  color: black;
+  padding: 5px;
 }
 .info-container {
   text-align: center;
