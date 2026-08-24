@@ -51,15 +51,30 @@ footer {
   font-size: 40px;
   font-weight: 700;
 }
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  height: 400px;
+  width: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.card-1 {
+  background-image: url(images/ladsbg1.png);
+}
 .enter {
   font-family: "Inter", sans-serif;
   font-size: 35px;
   font-weight: 700;
-  margin-top: 40px;
 }
 .social {
   margin: 20px;
   text-align: center;
+  display: none;
 }
 .enter:hover a {
   background: white;
@@ -75,6 +90,7 @@ footer {
   text-align: center;
   margin: 30px;
   padding: 10px;
+  display: none;
 }
 .update {
   font-size: 12px;
