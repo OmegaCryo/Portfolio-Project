@@ -44,6 +44,9 @@ a {
 footer {
   font-size: 0.625rem;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 /* index */
 #date {
@@ -91,9 +94,6 @@ footer {
   margin: 30px;
   padding: 10px;
   display: none;
-}
-.update {
-  font-size: 12px;
 }
 /* HOME.HTML */
 .scroll-header {
