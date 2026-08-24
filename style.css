@@ -46,32 +46,10 @@ footer {
   text-align: center;
 }
 /* index */
-#day {
+#date {
   font-family: "Inter", sans-serif;
   font-size: 40px;
   font-weight: 700;
-}
-.card-container {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-}
-.card {
-  height: 400px;
-  width: 90px;
-  margin: 5px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.card-1 {
-  background-image: url(images/Xavier00.png);
-  background-position: center;
-}
-.card-2 {
-  background-image: url(images/Zanye-1.png);
-}
-.card-3 {
-  background-image: url(images/Xavier.png);
 }
 .enter {
   font-family: "Inter", sans-serif;
