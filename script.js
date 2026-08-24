@@ -8,5 +8,14 @@ function currentTime() {
   const timeString = `${hours}:${minutes}:${seconds}`;
   document.getElementById("clock").textContent = timeString;
 }
+//Get the current date using toLocalDateString Methond
+function currentDay() {
+  const day = new Date();
+  const format = { year: "numeric", month: "long", day: "numeric" };
+  const dayString = day.toLocaleDateString("en-US", format);
+
+  document.getElementById("date").textContent = dayString;
+}
+currentDay();
 currentTime();
 setInterval(currentTime, 1000);
