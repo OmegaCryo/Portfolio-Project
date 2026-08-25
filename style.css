@@ -96,6 +96,9 @@ footer {
   display: none;
 }
 /* HOME.HTML */
+li {
+  list-style-type: none;
+}
 .scroll-header {
   width: 100%;
   background: #000;
@@ -167,6 +170,7 @@ footer {
   border: 1px solid #393941;
   margin-bottom: 15px;
   gap: 10px;
+  text-align: center;
 }
 .center-content {
   margin-bottom: 30px;
@@ -184,6 +188,7 @@ td {
   border: 2px solid white;
   padding: 10px;
   margin-right: 10px;
+  text-align: center;
 }
 .left-content {
   font-size: 0.75rem;
@@ -228,21 +233,10 @@ td {
   font-size: 12px;
   margin-top: 5px;
 }
-/*playlist*/
-.playlist {
-  margin: 10px;
-}
-.playlist a {
-  display: block;
-  font-size: 14px;
-}
 /* media queries mobile phone,tablet*/
 @media (max-width: 480px) {
   .header-title {
     font-size: 60px;
-  }
-  .index-container {
-    width: 350px;
   }
 }
 @media (max-width: 600px) {
