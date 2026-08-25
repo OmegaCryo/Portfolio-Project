@@ -238,6 +238,15 @@ td {
   .header-title {
     font-size: 60px;
   }
+  .container {
+    display: block;
+  }
+  .avatar {
+    margin: 0 auto;
+  }
+  .nav-section {
+    margin-top: 15px;
+  }
 }
 @media (max-width: 600px) {
 }
