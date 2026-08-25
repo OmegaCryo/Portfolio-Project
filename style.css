@@ -48,7 +48,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-/* index */
+/* INDEX */
 #date {
   font-family: "Inter", sans-serif;
   font-size: 40px;
@@ -189,6 +189,13 @@ td {
   font-size: 0.75rem;
   border: 1px solid #393941;
   padding: 10px;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  background-image: url(images/Xavier-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*RESOURCE.HTML*/
 .nav-resources {
