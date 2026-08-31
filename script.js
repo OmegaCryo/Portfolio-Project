@@ -12,7 +12,7 @@ function currentTime() {
 function currentDay() {
   const day = new Date();
   const format = { year: "numeric", month: "long", day: "numeric" };
-  const dayString = day.toLocaleDateString("en-US", format);
+  const dayString = day.toLocaleDateString(undefined, format);
 
   document.getElementById("date").textContent = dayString;
 }
