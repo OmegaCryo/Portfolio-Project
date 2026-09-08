@@ -237,6 +237,12 @@ td {
 .right-box p {
   font-size: 12px;
 }
+.about-section {
+  margin-bottom: 20px;
+}
+.about-section li {
+  font-size: 12px;
+}
 /*RESOURCE.HTML*/
 .nav-resources {
   display: flex;
