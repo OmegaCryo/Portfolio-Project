@@ -292,10 +292,12 @@ td {
 }
 /* media queries mobile phone,tablet*/
 @media (max-width: 480px) {
+  /*Global*/
   .header-title {
     font-size: 60px;
   }
-  .container {
+  .container,
+  .about-container {
     display: block;
   }
   .avatar {
@@ -304,6 +306,8 @@ td {
   .nav-section {
     margin-top: 15px;
   }
-}
-@media (max-width: 600px) {
+  /*About section*/
+  .left-box img {
+    height: 350px;
+  }
 }
