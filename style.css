@@ -266,6 +266,13 @@ td {
   display: inline-block;
 }
 /*RESOURCE.HTML*/
+.resource-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.resource-nav {
+  border: none;
+}
 .resource-section {
   border: 1px solid #393941;
   margin: 10px;
@@ -292,8 +299,13 @@ td {
   .nav-section {
     margin-top: 15px;
   }
+
   /*About section*/
   .left-box img {
     height: 350px;
+  }
+  /*Resource section*/
+  .resource-container {
+    width: 100%;
   }
 }
